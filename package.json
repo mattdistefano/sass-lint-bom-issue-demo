@@ -1,0 +1,17 @@
+{
+  "name": "sass-lint-test",
+  "version": "1.0.0",
+  "description": "Quick test of sass-lint weirdness",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:sass": "sass-lint -q -v *.scss"
+  },
+  "author": "Matt Distefano",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-sass-lint": "1.2.0",
+    "sass-lint": "1.9.1"
+  }
+}
